@@ -246,5 +246,6 @@ app.post('/register', (req, res) => {
         () => res.redirect('/login'));
 });
 
+
 // Szerver indítása
 app.listen(port, () => console.log(`SZERVER FUT: http://localhost:${port}`));
